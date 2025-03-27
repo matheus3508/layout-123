@@ -1,0 +1,81 @@
+* {
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+
+}
+
+
+
+
+.cabecalho {
+
+    width: 100vw;
+    height: 71px;
+    background-color: #3750b3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.cabecalho p {
+    color: white;
+    margin-right: 20px;
+}
+
+.left {
+    margin-left: 10vw;
+}
+
+.right {
+    display: flex;
+    margin-right: 10vw;
+}
+
+/* 
+.caixa-da-img {
+
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.caixa-da-img img {
+
+    width: 80vw;
+} */
+
+.imagens {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 41px;
+    
+}
+
+.image-left {
+    width: 36vw;
+    height: 95vh;
+    margin-left: 10vw;
+
+}
+
+.image-right {
+    width: 36vw;
+    height: 95vh;
+    margin-right: 10vw;
+}
+
+img {
+    width: 100%;
+    /* Faz a imagem ocupar toda a largura da div */
+    height: 70vh;
+}
+
+.textos {
+    margin-left: 10vw;
+}
