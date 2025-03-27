@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;     
+    font-size: Inter; 
+
+
+}
+
+
+
+
+.cabecalho{
+
+    width: 100vw;
+    height: 71px;
+    background-color: #3750b3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.cabecalho p {
+    color: white;
+    margin-right: 20px;
+}
+
+.left{
+    margin-left: 10vw;
+}
+
+.right {
+    display: flex;
+    margin-right: 10vw;
+}
+
+
+.caixa-da-img {
+
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.caixa-da-img img{
+
+    width: 80vw;
+}
+
+
+.textos {
+    margin-top: 100px;
+    margin-left: 10vw;
+
+}
+
+h1 {
+
+    font-size: 64px;
+    font-weight: normal;
+}
+
+.textos p{
+
+    font-size:32px;
+
+}
